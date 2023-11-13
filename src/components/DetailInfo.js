@@ -16,7 +16,11 @@ const DetailInfo = () => {
     console.log(newData);
     return (
         <div className={css.container}>
-            <p>THUNDERSTORM WITH LIGHT DRIZZLE</p>
+            <p>
+                {weatherCtx.weatherData.weather
+                    ? weatherCtx.weatherData.weather[0].description.toUpperCase()
+                    : "No description"}
+            </p>
             <div className={css.wrapper}>
                 {newData.length > 0 &&
                     newData.map((data) => (
