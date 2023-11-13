@@ -1,0 +1,16 @@
+.container {
+    width: 345px;
+}
+
+
+.container p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

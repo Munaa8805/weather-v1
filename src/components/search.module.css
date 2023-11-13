@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 55px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.container img {
+    width: 28px;
+    height: 28px;
+}
+
+.container input {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}

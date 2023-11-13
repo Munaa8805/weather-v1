@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    color:white;
+    padding-left: 120px;
+    padding-bottom: 89px;
+    gap: 1rem;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    font-size:60px;
+  height: 100%;
+
+    font-weight: 700;
+    margin-top: 0;
+}
+.container img {
+    width: 70px;
+    height: 70px;
+}

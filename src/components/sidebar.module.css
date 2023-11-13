@@ -1,0 +1,19 @@
+.container {
+    width: 526px;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    padding: 35px;
+}
+.detailHeader {
+   text-align: start;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.detailHeader span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
