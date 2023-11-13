@@ -13,7 +13,7 @@ const DetailInfo = () => {
             value: weatherCtx.weatherData.main[data],
         });
     }
-    console.log(newData);
+    // console.log(newData);
     return (
         <div className={css.container}>
             <p>

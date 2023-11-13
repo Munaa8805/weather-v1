@@ -5,7 +5,7 @@ import Datecomponent from "./Datecomponent";
 import WeatherHook from "../context/Weather";
 const Information = () => {
     const WeatherCtx = useContext(WeatherHook);
-    console.log("WeatherCtx", WeatherCtx);
+    // console.log("WeatherCtx", WeatherCtx);
     let url =
         WeatherCtx.weatherData?.weather?.length > 0
             ? `https://openweathermap.org/img/wn/${WeatherCtx.weatherData?.weather[0]?.icon}@2x.png`

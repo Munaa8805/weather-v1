@@ -7,7 +7,7 @@ import Sidebar from "./components/Sidebar";
 import WeatherHook from "./context/Weather";
 function App() {
     const weatherCtx = useContext(WeatherHook);
-    console.log(weatherCtx);
+    // console.log(weatherCtx);
 
     return (
         <div className={css.container}>
