@@ -10,6 +10,7 @@
 .wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 10px;
 }
 
@@ -22,4 +23,15 @@
         font-size: 14px;
          margin-bottom: 1rem;
     }
+}
+@media (max-width: 768px) {
+    .container p{
+        text-align: center;
+    }
+   .wrapper {
+    justify-content: space-between;
+    width: 100%;
+   }
+
+    
 }

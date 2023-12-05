@@ -6,26 +6,39 @@
     padding: 35px;
 }
 .detailHeader {
-   text-align: start;
+    text-align: start;
     width: 100%;
     margin: 20px 0;
 }
 
-
-.detailHeader span{
+.detailHeader span {
     color: #fff;
     font-weight: 700;
     font-size: 18px;
 }
 @media (max-width: 376px) {
     .detailHeader {
-        text-align: center
-        ;
+        text-align: center;
         width: 100%;
+        margin-top: 0;
     }
-   
-    .detailHeader span  {
+
+    .detailHeader span {
         font-size: 14px;
     }
-  
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .detailHeader {
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .detailHeader span {
+        font-size: 18px;
+    }
 }

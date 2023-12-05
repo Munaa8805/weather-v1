@@ -65,11 +65,7 @@ function App() {
             <BackgroundImage />
             {weatherCtx.errorHandler && <h1>Something went wrong</h1>}
             {width < 375 && <Mobile />}
-            {width < 768 && width > 375 && (
-                <div>
-                    <h1>Tablet</h1>
-                </div>
-            )}
+            {width < 768 && width > 375 && <Mobile />}
             {width > 769 && (
                 <div className={css.wrapper}>
                     <div className={css.subwrapper}>
