@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar";
 import WeatherHook from "./context/Weather";
 import ViewHook from "./context/ViewHook";
 import Mobile from "./components/Mobile";
+import Desktop from "./components/Desktop";
 function App() {
     const weatherCtx = useContext(WeatherHook);
 
@@ -64,21 +65,9 @@ function App() {
         <div className={css.container}>
             <BackgroundImage />
             {weatherCtx.errorHandler && <h1>Something went wrong</h1>}
-            {width < 375 && <Mobile />}
-            {width < 768 && width > 375 && <Mobile />}
-            {width > 769 && (
-                <div className={css.wrapper}>
-                    <div className={css.subwrapper}>
-                        <div className={css.desktoplogo}>
-                            <Logo />
-                        </div>
-                        <Information />
-                    </div>
-                    <div className={css.secondsubwrapper}>
-                        <Sidebar />
-                    </div>
-                </div>
-            )}
+            {width < 767 && <Mobile />}
+            {width < 1023 && width > 767 && <Mobile />}
+            {width > 1022 && <Desktop />}
         </div>
     );
 }

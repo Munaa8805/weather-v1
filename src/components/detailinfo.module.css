@@ -14,7 +14,7 @@
     gap: 10px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .container {
         text-align: center;
        
@@ -24,7 +24,7 @@
          margin-bottom: 1rem;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .container p{
         text-align: center;
     }

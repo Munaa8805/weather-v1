@@ -25,13 +25,13 @@
     font-size: 12px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .container img {
         width: 20px;
         height: 20px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
    
     .container input::placeholder{
         font-size: 18px;

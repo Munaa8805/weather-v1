@@ -8,9 +8,9 @@ import ViewHook from "../context/ViewHook";
 const BackgroundImage = () => {
     let image = backgroundImage;
     let newSize = ViewHook();
-    if (newSize.width < 375) {
+    if (newSize.width < 767) {
         image = mobileImage;
-    } else if (newSize.width < 768) {
+    } else if (newSize.width < 1023) {
         image = tabletImage;
     }
 

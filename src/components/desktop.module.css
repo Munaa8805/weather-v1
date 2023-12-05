@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.subwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.secondsubwrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.desktoplogo {
+    width: 89px;
+    height: 47px;
+    margin-top: 40px;
+}
