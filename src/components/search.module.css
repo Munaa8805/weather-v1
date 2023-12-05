@@ -1,12 +1,13 @@
 .container {
     display: flex;
     text-align: center;
-    justify-content: flex-start;
-    gap: 10px;
-    padding-top: 55px;
+    justify-content: space-between;
+    
+    
+
     width: 100%;
     border-bottom: 2px solid #fff;
-    padding-bottom: 1rem;
+   
     cursor: pointer;
 }
 .container img {
@@ -15,7 +16,20 @@
 }
 
 .container input {
-    color: black;
+    color: rgb(255, 255, 255, 0.7);
     font-size: 18px;
     font-weight: 600;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0);
+}
+.container input::placeholder{
+    font-size: 12px;
+}
+
+@media (max-width: 376px) {
+   .container img {
+    width: 20px;
+    height: 20px;
+       
+   }
 }

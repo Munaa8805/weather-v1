@@ -1,8 +1,6 @@
 .container{
     display: flex;
     color:white;
-    padding-left: 120px;
-    padding-bottom: 89px;
     gap: 1rem;
 }
 .subcontainer{
@@ -24,3 +22,16 @@
 }
 
 
+@media (max-width: 376px) {
+  .container h1{
+    font-size:40px;
+  
+  }
+ .container img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+ }
+  
+  
+}

@@ -1,0 +1,48 @@
+.mobilewrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.mobilelogo {
+    width: 39px;
+    height: 20px;
+}
+.desktoplogo {
+    width: 89px;
+    height: 47px;
+    margin-top: 40px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.mobilecontainer {
+
+    
+}
+.mobileheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 22px;
+    width: 100%;
+}
+.searchwrapper {
+    width: 125px;
+    height: 20px;
+}
+.searchwrapper form {
+    width: 100%;
+}
+.informationwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 19px 22px;
+     margin-top: 140px;
+}
+.sidewrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}

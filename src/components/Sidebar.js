@@ -5,7 +5,6 @@ import DetailInfo from "./DetailInfo";
 const Sidebar = () => {
     return (
         <div className={css.container}>
-            <Search />
             <div className={css.detailHeader}>
                 <span>Weather Details...</span>
             </div>

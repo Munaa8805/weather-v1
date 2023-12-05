@@ -1,16 +1,25 @@
 .container {
-    width: 345px;
+    width: 100%;
 }
-
 
 .container p {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-
 }
 .wrapper {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+@media (max-width: 376px) {
+    .container {
+        text-align: center;
+       
+    }
+    .container p {
+        font-size: 14px;
+         margin-bottom: 1rem;
+    }
 }
